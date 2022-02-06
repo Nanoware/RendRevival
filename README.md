@@ -32,7 +32,7 @@ To finally launch the game there are new (and old?) command line arguments avail
 
 * `-NoEAC` - disable the anti-cheat. This must _always_ be enabled, either using this argument or picking No EAC when launching from Steam. Otherwise the modified DLL will be caught as a problem.
 * `-playername=SOMENAME` - set your character name
-* `-faction=#` - pick your faction, either `1`, `2` (Revenant, green), or `3`
+* `-faction=#` - pick your faction, either `1`, `2` , or `3` (Revenant, Conclave, or Order)
 * `-console` - if you want to see some basic game logging during startup and connecting in a separate window
 * `-connect=1.2.3.4:7777` - with a target server IP or URL, to connect directly - if this works the main game menu will appear for a moment but automatically continue to the loading screen (if connecting works!)
 
