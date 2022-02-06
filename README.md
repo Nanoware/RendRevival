@@ -43,6 +43,6 @@ If you attempt to connect via server browser from in-game be sure that your filt
 
 ### Settings
 
-To configure the server gameplay settings you mainly need to look at `config.ini` in the root dir for "Rend Server" and `Game.ini` which lives deeper in at `Rend Server\Otherlands\Saved\Config\WindowsServer\`
+To configure the server gameplay settings you mainly need to look at `config.ini` in the root dir for "Rend Server" and `Game.ini` which lives deeper in at `Rend Server\Otherlands\Saved\Config\WindowsServer\` - that location also has the `Server.ini` which is needed for defining admins and cheaters by using their user id. That shows up in the log on login or when attempting to cheat without rights to cheat. Example id: `Cervator$f=2$2320887228`
 
 Two sets are included in this repo for the two most common setups for Last Hope community servers. Suggestions via PR welcome!
