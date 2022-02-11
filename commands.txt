@@ -1,0 +1,1216 @@
+(originally copied from https://pingperfect.com/index.php/knowledgebase/312/Rend--Admin-Commands.html)
+
+/BanPlayer [Name] "[Message]" [Hours]
+/UnbanPlayer <Name>
+
+/beastmaster  makes AI ignore you
+/port <area> 1/2/3, for quick teleports
+/encumbrancemultiplier <#>
+/harvestmultiplier <#>
+/spawncreature <ID> <lvl> <spirit realm 1 or 0> <friendly 1 or 0>
+/reckoning <reckoning wave id>
+
+Animals
+
+Command to summon pets/mounts
+Wolf howeltooth: /addtocollection 210 0 5
+Wolf prowlfang /addtocollection 206 0 5
+Boar T1: /addtocollection 199 0 5
+Boar T2 /addtocollection 200 0 5
+Frabbit: /addtocollection 203 0 5
+yxen (baby): /addtocollection 221 0 5
+yxen (adult): /addtocollection 222 0 5
+yxen (adult male):  /addtocollection 223 0 5
+Roc (bby):  /addtocollection 225 0 5
+Roc (bby big) /addtocollection 226 0 5
+waspray ():  /addtocollection 233 0  5
+Frostfang: /addtocollection 335 0 5
+
+Faction
+
+Command to change faction
+For Revenant: : /setfaction 1
+For Conclave: /setfaction 2
+For Order: /setfaction 3
+
+Player Modifications
+
+Adjust Level: /setlevel
+Adjust Skill Level: /setskilllevel 1-16 1-100
+
+God Mode On: /mob 1
+God Mode Off: /mob 0
+
+Loot Generation
+
+Create Basic Gear: /createloot 201 1 0 5
+Create Better Gear: /createloot 202  1 0 5
+
+Create Item: /createitem (id of item) (quantity of item)
+
+Current Item ID’s (missing ID’s are not working or things not implemented)
+
+3: Makeshift Crossbow
+7: Small Wooden Chest
+8: Wood Barrel
+9: Raw Meat
+14: Emberstone
+15: Obsidian Chunk
+17: Iron Ore
+18: Iron Bar
+20: Divinite Bar
+29: Fang
+30: Perfect Meat
+31: Peculiar Meat
+32: Spirit Essence
+34: Liquid Fire
+35: Flash Powder
+36: Charcoal
+37: Black Powder
+38: Adhesive Paste
+41: Fiber Twine
+42: Rough Rope
+43: Wood Arrow
+44: Stone tipped Arrow
+45: Thornwood Arrow
+46: Runeoak Arrow
+47: Sleep Arrow
+48: Incendiary Arrow
+49: Large Wooden Chest
+50: Small Iron Chest
+51: Wooden Bucket
+52: Wood Torch
+53: Iron Torch
+ite56: Leather Waterskin
+57: Silk Waterskin
+58: Silken Water Satchel
+64: Hardwood Recurve Bow
+65: Iron Longbow
+66: Divinite Tricurve
+67:  Heavy Iron Crossbow
+68: Divinity Automatic Crossbow
+69: Makeshift Repeater
+70: Iron Spike Launcher
+71: Iron Shard Blaster
+72: Divinite Shard Blaster
+73: Iron Repeater
+74: Iron Auto-Repeater
+75: Iron Bomb Launcher
+76: Goo Launcher
+78: Elixir of Recovery
+79: Elixir of Endurance
+80: ELixir of Warmth
+81: Elixir of Cooling
+
+
+
+
+
+
+100: Roc Breast
+107: Spiked Wood Barricade
+108: Spiked Iron Barricade
+109: Spiked Divinite Barricade
+113: Coarsethread Hood
+114: Coarsethread Boots
+115: Coarsethread Gloves
+116: Coarsethread Chest
+117: Corasethread Pants
+118: Ruggedhide Hat
+119: Ruggedhide Boots
+120: Ruggedhide Gloves
+121: Ruggedhide Chest
+122: Ruggedhide Pants
+123: Roughsilk Hood
+124: Roughsilk Boots
+125: Roughsilk Gloves
+126: Roughsilk Chest
+127: Roughsilk Pants
+128: Thickfur Hat
+129: Thickfur Boots
+130: Thickfur Gloves
+131: Thickfur Chest
+132: Thickfur Pants
+133: Iron Siege Helmet
+134: Iron Siege Boots
+135: Iron Siege Gloves
+136: Iron Siege Chest
+137: Iron Siege Pants
+138: Divinite War Helmet
+139: Divnite War Boots
+140: Divinite War Gloves
+141: Divinite War Chest
+142: Divinite War Pants
+143: Catapult
+144: Wood Battering Ram
+145: Iron Battering Ram
+146: Divinite Battering Ram
+147: Ballista
+148: Giant Ballista
+151: Iron Dust
+152: Magicite Dust
+153: Fire Dust
+159: Cement
+160: Obsidian Glass Shard
+172: Dark Spirit Essence
+173: Corrupted Spirit Essence
+174: Lost Spirit Essence
+175: Poorly Cooked Meat
+176: Cloth Patch
+177: Bolt of Spun Silk
+178: Weapon Rack
+179: Armor Rack
+180: Pyresilk Rope
+181: Roughwood Lumber
+184: Eseence of Heartmelon
+185: Essence of Goldpoppy
+186: Essence of Bjornheather
+187: Essence of Yxengrass
+188: Essence of Tarberry
+189: Essence of Blood Orchid
+191: Auto-bellow Forge
+192: Trap Manufactory
+193: Armor Anvil
+194: Adventure’s Workshop
+195: Generic Blacksmith Anvil
+196: Weapon Anvil
+197: Forge
+198: Reinforcement Foundry
+199: Alchemy Table
+
+
+
+200: Loom
+202: fur crafting table
+207: saw mill
+208: campfire
+209: stonecutter
+214: mystic altar
+215: spirit stables
+225: bronze bolt
+226: iron bolt
+227: divinite bolt
+228: wood spike
+229: stone spike
+230: iron spike
+231: divinite spike
+232: wood shard
+233: stone shard
+234: iron shard
+235: divinite shard
+236: wood dart
+237: tainted dart
+238: needle dart
+239: venom tipped dart
+240: Enchanted Knotwood
+242: Haunted Timber
+243: Searing Thorn
+244: Arcane Stone
+245: Ichor root
+246: Shrillstem
+247: Soul Weed
+248: Shadow Leaf
+249: Gloom Seed
+250: Dusk Thorn
+251: Smolder Vine
+252: Frost Petal
+253: Ice Thistle
+255: Whisperleaf
+268: Elixir of Agility
+269: Yxenblood Elixir
+271: Elixir of the Twitchy
+276: Greater Elixir of Warming
+277: Greater Elixir of Cooling
+278: Greater Elixir of Agility
+279: Greater Elixir of Endurance
+280: Greater Elixir of Recovery
+281: Greater Yxenblood Elixir
+282: Lesser Draught of Healing
+283: Draught of Healing
+284: Draught of Stamina
+285: Draught of Invisibility
+286: Potion of the Otherside
+287: Greater Draught of Healing
+288: Thundergod’s Draught
+289: Berserker Draught
+291: Draught of the Colossus
+292: Quick Hands Draught
+293: Draught of Truesight
+294: Lesser Draught of Recovery
+295: Draught of Recovery
+296: Greater Draught of Recovery
+297: Elixir of the Strung Bow
+298: Iron Wall Torch
+300: Small Locked Chest
+301: Hunting Lodge
+302: Construction Building Tier 1
+303: Invention Building Tier 1
+304: Mystic Building Tier 1
+305: Hunting Lodge
+306: Construction Building Tier 2
+307: Invention Building Tier 2
+308: Mystic Building Tier 2
+309: Hunting Lodge
+310: Construction Building Tier 3
+311: Invention Building Tier 3
+312: Mystic Building Tier 3
+313: Hunting Lodge
+314: Construction Building Tier 4
+315: Invention Building Tier 4
+316: Mystic Building Tier 4
+317: Elixir of the Quick Learner
+318: Elixir of the Expansive Mind
+321: Twinebound Pouch
+322: Leather Backpack
+323: Tough Leather Backpack
+324: Silk Roughsack
+325: Enchanted Whispersilk Pack
+326: Cooked Perfect Meat
+338: Glyph Box
+339: Crude Jumppad
+340: Crude Farmbox
+341: Crude Glyph Board
+342: Auto-shutoff Forge
+343: Enchanted Divnite Torch
+349: Coarsethread ShoulderPads
+350: Ruggedhide Spaulders
+351: Whispersilk Spaulders
+352: Thickfur Shoulders
+353: Iron Siege Pauldrons
+354: Divinite War Pauldrons
+355: Cured Tough Leather
+356: Giant Iron Catapult
+357: Giant Siege -------- Tier 1
+358: Giant Siege Bomb Tier 2
+359: Giant Siege Bomb Tier 2
+361: TEST Door
+362: Wooden Log Gate Frame
+363: Wooden Log Gate
+364 Stone Block Gate Frame
+365: Sharpened Throwing Stick
+366: Throwing Stone
+367: Decaying Meat
+368: Roughweave Cloth
+376: Hardwood Chips
+377: Chunk of Hardened Resin
+380: Gnarlwood Lumber
+382: Battle Horn
+383: Ruined Plant Scraps
+388: Bronze Bar
+389: Bronze Nail
+392: Bronze Recurve Bow
+393: Bronze Bow
+394: Bronze Repeater
+395: Bronze Spike Launcher
+396: Bronze Spear
+399: Wooden Basket
+400: Roughweave Leather Bag
+402: Strong Fiber Twine
+428: Artifact Hammer
+431: Standing Iron Brazier
+432: Hanging Iron Brazier
+433: Giant Iron Brazier
+435: Artifact Bow
+436: Roughwood Compound Bow
+437: Adept’s Wooden Crossbow
+438: Adept’s Wooden Repeater
+440: Adept’s Bronze Repeater
+441: Adept’s Bronze Crossbow
+442: Bronze Hunting Bow
+443: Faction Stash
+444: Personal Stash
+456: Hardening Glue
+459: Crystalline Arrow
+460: Crystalline Dart
+461: Crystalline Spike
+462: Crystalline Shard
+463: Crystalline Bolt
+464: Rough Fiber Compress
+465: Treated Medical Compress
+466: Weak Antivenom
+467: Antivenom
+468: Dripping Spider Fang
+469: Searing Venom Fang
+470: Bloodsilk Compress
+471: Angelsilk Compress
+472: Musk Blood
+473: Musky Hoof
+474: Hardened Yellow Spore
+475: Spongy Yellow Spore
+476: Noxious Red Cap
+477: Potent Red Cap
+478: Pristine Horn
+481: Beak Fragments
+484: Woven Silk Rope
+485: Ironfir Lumber
+487: Hardwood Lumber
+488: True Iron
+489: Pure Divinite
+490: Severed Claw
+491: Dire Cat Claw
+492: Dire Blood
+493: Bear Claw
+494: Rat Blood
+495: Rat Tail
+496: Large Emberstone Chunk
+497: Sulfuric Chunk
+498: Inert Rock
+499: Sulfuric Dust
+500: Foul Smelling Bits
+510: Ruined Scale
+511: Perfect Scale
+513: Hearthwood Bonfire
+516: Silver Bar
+518: Strong Rope
+522: Silvered Arrow
+523: Silvered Bolt
+524: Silvered Dart
+525: Silvered Shard
+526: Silvered Spike
+527: Spun Pyresilk
+535: Warehouse Storage
+536: Personal Forge
+538: Boar Meat Scraps
+573: Unstable Emberstone Core
+574: Reactive Emberdust
+575: Sulfuric Core
+576: Sulfuric Powder
+577: Bitterweed
+578: Savory Root
+579: Mellow Sprout
+580: Picklemint
+581: Pepperseed
+582: Spongestalk
+583: Sweetcap
+584: Wood Standing Torch
+585: Dining Table
+586: Table
+587: Chair
+588: Automatic Stone Cutter
+589: Mystic’s Enchanted Stone Cutter
+592: Automatic Sawmill
+593: Mystic’s Enchanted Sawmill
+594: Brew Keg
+595: Bronze Torch
+600: Reinforced Compound Bow
+601: Reinforced Recurve Bow
+602: Crude Metal Repeater
+603: Adept Crude Metal Repeaterc
+604: Crude Metal Crossbow
+605: Adept Crude Metal Crossbow
+609: Hearthwood Log
+610: Runeoak Lumber
+611: Runeoak Stick
+613: Greater Antivenom
+614: Arachnix Blood Serum
+615: Pyranchnix Venom Compound
+618: Warehouse Refinery
+619: Warehouse
+621: Razor Stone Dart
+622: Razor Crystal Dart
+623: Crude Metal Candelabra
+624: Log Basket
+625: Secured Chest
+626: Warlords Secured Chest
+627: Great Small Secured Chest
+628: Average Locked Chest
+629: Warlords Locked Chest
+630: Great Large Secured Chest
+631: Healing Salve
+632: Roughweave Knapsack
+633: Ancient Runed Roughsack
+634: Hard Stone Boulder
+635: Hard Stone Block
+636: Wood Fragmentation Bomb
+637: Wood Siege Bomb
+638: Bronze Fragmentation Bomb
+639: Brone Siege Bomb
+640: Iron Fragmentation Bomb
+641: Iron Siege Bomb
+642: Divinity Fragmentation Bomb
+643: Divnite Siege Bomb
+644: Sturdy Wood Tool Handle
+645: Hardened Metal Tool Handle
+646: Unyielding Tool Handle
+649: Large Wooden Box
+653: Repaid Worktable
+654: Tough Leather Waterskin
+655: Divinite Locked Giant Craft
+656: Exceptional Wooden Torch
+658: Stonefire Oven
+659: Weapon Modification: Reload Speed Lesser
+660: Weapon Modification: Reload Speed Greater
+661: Weapon Modification: Clip Size Lesser
+662: Weapon Modification: Clip Size Greater
+663: Weapon Modification: Damage Lesser
+664: Weapon Modification: Damage Greater
+665: Weapon Modification: Fire Rate Lesser
+666: Weapon Modification: Fire Rate Greater
+667: Weapon Modification: Firing Range Lesser
+668: Weapon Modification: Firing Range Greater
+669: Weapon Modification: Recoil Suppression  Lesser
+670: Weapon Modification: Recoil Suppression  Greater
+671: Weapon Modification: Weapon Swap Speed  Lesser
+672: Weapon Modification: Weapon Swap Speed  Greater
+673: Weapon Modification: Movement Speed Lesser
+674: Weapon Modification: Movement Speed Greater
+675: Weapon Modification Dim Crystal Light
+676: Weapon Modification Crystal Light
+677: Weapon Modification Crystal Bright
+678: Weapon Modification Crystal Radiant
+679: Weapon Modification Sights Accuracy (Lesser)
+680: Weapon Modification Sights Accuracy (Greater)
+681: Weapon Modification Hip Fire Accuracy (Lesser)
+682: Weapon Modification Hip Fire Accuracy (Greater)
+683: Weapon Modification Armor Piercing (Lesser)
+684: Weapon Modification Armor Piercing (Greater)
+685:
+686:
+687:
+688:
+689:
+690:
+691:
+692: Razorstone Arrow
+693: Razorstone Spike
+694: Razorstone Bolt
+695: Razorstone Shard
+696: Razor Crystal Arrow
+697: Razor Crystal Spike
+698: Razor Crystal Bolt
+699: Razor Crystal Shard
+700: Wooden Door
+701: Bronze Reinforced Door
+702: Unused Door
+703:
+762: Citrus Shoot
+763: Sweet Stem
+764: Secured Wood Ammo Crate
+765: Average Secured Wood Ammo Crate
+766: Good Secured Wood Ammo Crate
+767: Great Secured Wood Ammo Crate
+768: Secured Wood Armor Locker
+769: Average Secured Wood Armor Locker
+770: Good Secured Wood Armor Locker
+771: Great Secured Wood Armor Locker
+772: Secured Wood Tool Box
+773: Average Secured Wood Tool Box
+774: Good Secured Wood Tool Box
+775: Great Secured Wood Tool Box
+776: Secured Wood Weapon Locker
+777: Average Secured Wood Weapon Locker
+778: Good Secured Wood Weapon Locker
+779: Great Secured Wood Weapon Locker
+783: Crude Metal Grated Door
+784: Iron Grated Door
+785: Divinite Grated Door
+786:
+787: Reactive Pitch
+788: Secured Crude Metal Ammo Crate
+789: Average Secured Crude Metal Ammo Crate
+790: Good Secured Crude Metal Ammo Crate
+791: Great Secured Crude Metal Ammo Crate
+792: Secured Crude Metal Armor Locker
+793: Average Secured Crude Metal Armor Locker
+794: Good Secured Crude Metal Armor Locker
+795: Great Secured Crude Metal Armor Locker
+796: Secured Crude Metal Tool Box
+797: Average Secured Crude Metal Tool Box
+798: Good Secured Crude Metal Tool Box
+799: Great Secure Crude Metal Tool Box
+800: Secured Crude Metal Weapon Locker
+801: Average Secured Crude Metal Weapon Locker
+802: Good Secured Crude Metal Weapon Locker
+803: Great Secured Crude Metal Weapon Locker
+804: Secured Iron Ammo Crate
+805: Average Secured Iron Ammo Crate
+806: Good Secured Iron Ammo Crate
+807: Great Secured Iron Ammo Crate
+808: Secured Iron Armor Locker
+809: Average Secured Iron Armor Locker
+810: Good Secured Iron Armor Locker
+811: Great Secured Iron Armor Locker
+812: Secured Iron Tool Box
+813: Average Secured Iron Tool Box
+814: Good Secured Iron Tool Box
+815: Great Secured Iron Tool Box
+816: Secured Iron Weapon Locker
+817: Average Secured Iron Weapon Locker
+818: Good Secured Iron Weapon Locker
+819: Great Secured Iron Weapon Locker
+820:
+918: Greater Divinity Seed
+919: Test Pistol
+920: Test Hand Canon
+921: Test SMG
+922: Test Assault Rifle
+923: Test Bolt Action Rifle
+924: Test Sniper Crossbow
+925: Test Burst Rifle
+926: Test Pump Action Shotgun
+927: Test Auto Shotgun
+928: Test Grenade Launcher (NYI)
+929: Basic Personal Crafting Station
+930: Station Attachment Medium Armor
+931: Station Attachment Light Armor
+932: Station Attachment Heavy Armor
+933: Salve of Poppy
+934: Stitched Scrap Water Bag
+935: Salt Cured Meat
+936: Roughweave Shirt
+937: Roughweave Trousers
+938: Roughweave Sandals
+939: Simple Bow
+940: Oak Hunting Bow
+941: Oak Recurve Bow
+942: Pristine Elkhorn Bow
+943: Divinite Recurve Bow
+944:
+945: Possessed Repeater Turret:
+946: Capture Point
+947: Divinity Splinter
+948: Hearthwood Siege Bow
+949: Elkhorn Foeseeker
+950: Divinite Heartpiercer
+951: Flimsy Bow
+952: Roughwood Stick
+953: Roughwood Log
+954: Roughwood Branch
+955: Sticky Sap
+956:
+957: Hardwood Stick
+958: Hardwood Log
+959:
+960: Thornwood Stick
+961: Thornwood Barb
+962: Caustic Resin
+963: Gnarlwood Branch
+964: Gnarlwood Burr
+965: Spongy Cork
+966: Stout Fibrous Stem
+967: Spore Pod
+968: Ironfir Log
+969: Ironfir Branch
+970:
+971: Unfired Amber
+972: Bleak Ash Stick
+973: Delicate Ash Branch
+974: Vitreous Bark
+975: Ebon Sap
+976: Frostbark Log
+977: Frostbark Stick
+978: Crystallized Resin
+979: Rime Needles
+980: Geistwood Chips
+981: Geistwood Log
+982: Geistwood Bark
+983: Wailing Knot
+984: Curse-Runed Timber
+985: Knot of Shadow
+986: Runed Stick
+987: Runed Log
+988: Glowing Sap
+989: Rune-Etched Bark
+990: Incandescent Seed
+991: Crumblestone
+992: Flint
+993: Rock Salt
+994: Cragrock Chunk
+995: Cragrock Chips
+996: Salt Peter
+997: Pumice
+998: Granite Slab
+999: Granite Chips
+1000: Aesirok Chunk
+1001: Aesirok Slab
+1002: Aesirok Boulder
+1003: Scoria Shards
+1004: Scoria Chunk
+1005: Glowing Scoria Shard
+1006: Skarn Slag
+1007: Skarn Shards
+1008: Topaz Geode
+1009: Topaz Shard
+1010: Topaz
+1011: Sunstone Topaz
+1012: Dusk Quartz Geode
+1013: Dusk Quartz Shard
+1014: Dusk Quartz
+1015: Nightfall !Quartz
+1016: Moonlight Chalcedony Geode
+1017: Chalcedony Shard
+1018: Moonlight Chalcedony
+1019: Luminous Chalcedony
+1020: Etched Chunk
+1021: Runed Slab
+1022: Burnt Ruby Geode
+1023: Permafrost Sapphire Geode
+1024: Permafrost Shard
+1025: Glacier’s Heart
+1026: Royal Amethyst Geode
+1027: Amethyst Shard
+1028: Royal Amethyst
+1029: Emperor’s Amethyst
+1030: Sulfur Powder
+1031: Sulfur Chunk
+1032: Sulfuric Core
+1033: Sulfurous Pearl
+1034: Sulfurous Black Pearl
+1035: Permafrost Sapphire
+1036: Ruby Shard
+1037: Burnt Ruby
+1038: Inferno Ruby
+1039: Ancient Diamond Geode
+1040: Diamond Chip
+1041: Ancient Diamond
+1042: Eternal Diamond
+1043: Emberdust
+1044: Emberstone
+1045: Unstable Emberstone Core
+1046: Obsidian Shard
+1047: Obsidian Chips
+1048: Obsidian Slab
+1049: Serpent’s Scale
+1050: Worthless Dust
+1051: Stibnite Needle
+1052: Stibnite Dust
+1053: Stygian Alabaster
+1054: Stygian Alabaster Chips
+1055: Atramentous Skull
+1056: Dross Metal
+1057: Tin Ore
+1058: Flux
+1059: Copper Ore
+1060: Iron Ore
+1061: True Iron Ore
+1062: Magnetite Crystal
+1063: Amaranthine Skyfall Iron Ore
+1064: Skyfall Iron Flakes
+1065: Viridian Skyfall Iron Ore
+1066: Titian Skyfall Ore
+1067: Divinite Slag
+1068: Divinite Ore
+1069: Divinite Dust
+1070: Silver Ore
+1071: Pure Silver Nugget
+1072: Gold Ore
+1073: Massive Gold Chunk
+1074: Quicksilver Ore
+1075: Quicksilver Lodestone
+1076: Eternium Splinter
+1077: Eternium Ore
+1078: Suspended Eternium Cluster
+1079: Abyssite Silver
+1080: Abyssite Ore
+1081: Inviolate Abyssite Sphere
+1082: Spirit Hatchet
+1083: Spirit Handaxe
+1084: Spectral Axe
+1085: Spectral Lumberaxe
+1086: Divine Spirit Axe
+1087: Spirit Mallet
+1088: Spirit Hammer
+1089: Spectral Sledge
+1090: Spectral Rockbreaker
+1091: Divine Spirit Sledge
+1092: Spirit Sickle
+1093: Spirit Handscythe
+1094: Spectral Sickle
+1095: Spectral Scythe
+1096: Divine Spirit Reaper
+1097: Spirit Pick
+1098: Spirit Mattock
+1099: Spectral Pickaxe
+1100: Spectral Striker
+1101: Divine Striker
+1102:
+
+1150: Ravener Claw
+
+1200: Trophy: Stag’s Head
+1201:
+
+1250: Dawn’s Rose
+
+1300: Shaman’s Treads
+
+1350: Greater Elixer of the Harvest
+
+1400
+:
+1450: Wooden Pillar Frame
+
+1500: Stone Window Frame
+1501: Crumblestone Window
+1502: Cragrock Window
+1503: Granite Window
+1504: Aesirok Window
+1505: Stone Foundation Frame
+1506: Crumblestone Foundation
+1507: Cragrock Foundation
+1508: Granite Foundation
+1509: Aesirok Fountation
+1510: Stone Pillar Frame
+1511: Crumblestone Pillar
+
+
+2000: T4 Crossbow+
+2001: Adept T4 Crossbow
+2002: Adept T4 Crossbow+
+2003: Superior T4 Crossbow
+2004: Superior T4 Crossbow+
+2005: Journeyman T4 Crossbow
+2006: Journeyman T4 Crossbow+
+2007: Master T4 Crossbow
+2008: Master T4 Crossbow+
+2009: T5 Hunting Bow
+2010: T5 Hunting Bow+
+2011: Adept T5 Hunting Bow
+2012: Adept T5 Hunting Bow +
+2013: Superior T5 Hunting Bow
+2014: Superior T5 Hunting Bow+
+2015: Journeyman T5 Hunting Bow
+2016: Journeyman T5 hunting Bow+
+2017: Master T5 Hunting Bow
+2018: Master T5 Hunting Bow+
+2019: T5 Crossbow
+2020: T5 Crossbow +
+2021: Adept T5 Crossbow
+2022: Adept T5 Crossbow+
+2023: Superior T5 Crossbow
+2024: Superior T5 Crossbow+
+2025: Journeyman T5 Crossbow
+2026: Journeyman T5 Crossbow+
+2027: Master T5 Crossbow
+2028: Master T5 Crossbow+
+2029: T5 Repeater
+2030: T5 Repeater+
+2031: Adept T5 Repeater
+2032: Adept T5 Repeater+
+2033: Superior T5 Repeater
+2034: Superior T5 Repeater+
+2035: Journeyman T5 Repeater
+2036: Journeyman T5 Repeater+
+2037: Master T5 Repeater
+2038: Master T5 Repeater+
+2039: T5 Bolt Launcher
+2040: T5 Bolt Launcher+
+2041: Adept T5 Bolt Launcher
+2042: Adept T5 Bolt Launcher+
+2043: Superior T5 Bolt Launcher
+2044: Superior T5 Bolt Launcher+
+2045: Journeyman T5 Bolt Launcher
+2046: Journeyman T5 Bolt Launcher+
+2047: Master T5 Bolt Launcher
+2048: Master T5 Bolt Launcher+
+2049: T5 Blaster
+2050: T5 Blaster+
+2051: Adept T5 Blaster
+2052: Adept T5 Blaster+
+2053: Superior T5 Blaster
+2054: Superior T5 Blaster+
+2055: Journeyman T5 Blaster
+2056: Journeyman T5 Blaster+
+2057: Master T5 Blaster
+2058: Master T5 Blaster+
+2059: T5 Longbow
+2060: T5 Longbow+
+2061: Adept T5 Longbow
+2062: Adept T5 Longbow+
+2063: Superior T5 Longbow
+2064: Superior T5 Longbow+
+2065: Journeyman T5 Longbow
+2066: Journeyman T5 Longbow+
+2067: Master T5 Longbow
+2068: Master T5 Longbow+
+2069: T5 Crossbow
+2070: T5 Crossbow+
+2071: Adept T5 Crossbow
+2072: Adept T5 Crossbow+
+2073: Superior T5 Crossbow
+2074: Superior T5 Crossbow+
+2075: Journeyman T5 Crossbow
+2076: Journeyman T5 Crossbow+
+2077: Master T5 Crossbow
+2078: Master T5 Crossbow+
+2079: Hardwood Branch
+2080: Thornwood Branch
+2081:
+2082: Sniper Arrows
+2083: Sniper Arrows
+2084: Sniper Arrows
+2085: Medium Leather
+2086: Medium Leather Scraps
+2087: Rock Conjuring Stone
+2088: Metal Conjuring Stone
+2089: Wood Conjuring Stone
+2090: Roughwood Sniper Bow Test
+2091: Roughwood Crossbow Rifle Test
+2092:
+2093: Roughwood Blaster Test
+2094: Roughwood Spikelauncher Test
+2095:
+2096:
+2097:
+2098:
+2099:
+2100:
+2101:
+2102:
+2103: Dross Nails
+2104: Braided Cord
+2105: T1 Brace
+2106: T1 Grip
+2107: T1 Canister
+2108: T1 Placeholder
+2109: Wolf Ornament
+2110: T2 Strings
+2111: T2 Brace
+2112: T2 Grip
+2113: T2 Canister
+2114: T2 Placeholder
+2115: t2 placeholder
+2116: T3 Strings
+2117: T3 Brace
+2118: T3 Grip
+2119: T3 Canister
+2120: T3 Placeholder 1
+2121: T3 Placeholder 2
+2122: T4 Strings
+2123: T4 Brace
+2124: T4 Grip
+2125: T4 Canister
+2126: T4 Placeholder 1
+2127: T4 Placeholder 2
+2128: T5 Strings
+2129: T5 Brace
+2130: T5 Grip
+2131: T5 Canister
+2132: T5 Placeholder 1
+2133: T5 Placeholder 2
+2134:
+2135: Spark of Genius: Adventuring
+2136: Spark of Genius: Construction
+2137: Spark of Genius: Invention
+2138: Spark of Genius: Mysticism
+2139: Runecloth Hood
+2140: Runecloth Gloves
+2141: Runecloth Boots
+2142: Runecloth Trousers
+2143: Runecloth Shroud
+2144: Runecloth Shoulderpads
+2145: Marshtread Mask
+2146: Marshtread Gloves
+2147: Marshtread Boots
+2148: Marshtread Trousers
+2149: Marshtread Shawl
+2150: Marshtread Mantle
+2151: Mirewalker Headpiece
+2152: Mirewalker Mitts
+2153: Mirewalker Treads
+2154: Mirewalker Pants
+2155: Mirewalker Chestguard
+2156: Mirewalker Shoulders
+2157: Swampstalker Mask
+2158: Swampstalker Gloves
+2159: Swampstalker Boots
+2160: Swampstalked Trousers
+2161: Swampstalker Chest
+2162: Swampstalker Mantle
+2163: Heavyfur Hat
+2164: Heavyfur Boots
+2165: Heavyfur Gloves
+2166: Heavyfur Chest
+2167: Heavyfur Pants
+2168: Heavyfur Sholders
+2169: Battlefur Hat
+2170: Battlefur Boots
+2171: Battlefur Gloves
+2172: Battlefur Chest
+2173: Battlefur Pants
+2174: Battlefur Sholders
+2175: Whispersilk Hood
+2176: Whispershil Boots
+2177: Whispersilk Gloves
+2178: Whispersilk Chest
+2179: Whispersilk Pants
+2180: Whispersilk Sholders
+2181: Arrowbreaker Healm
+2182: Arrowbreaker Boots
+2183: Arrowbreaker Gloves
+2184: Arrowbreaker Chest
+2184: Arrowbreaker Pants
+2185: Arrowbreaker Sholders
+2186:
+2187: Warplate Helmet
+2188: Warplate Boots
+2189: Warplate Gloves
+2190: Warplate Chest
+2191: Warplate Pants
+2192: Warplate Sholders
+2193: Darkhide Hat
+2193: Darkhide Hat
+2194: Darkhide Boots
+2195: Darkhide Gloves
+2196: Darkhide Chest
+2197: Darkhide Pants
+2198: Darkhide Sholders
+2199: Runeleather Hat
+2200: Runeleather Boots
+2201: Runeleather Gloves
+2202: Runeleather Chest
+2203: Runeleather Pants
+2204: Runeleather Spaulders
+2205: Boar Ribs
+2206: Pyresilk Veil
+2207: Pyresilk Mitts
+2208: Pyresilk Footwraps
+2209: Pyresilk Leggings
+2210: Pyresilk Wrappings
+2211:
+2212: Pyresilk Scarf
+2213: Roc Breast
+2214: Yxen Sirloin
+2215: Giant Bronto Rib
+2216: Crunchy Spider Leg
+2217: Maggot Belly
+2218: Cat Muscle
+2219: Charger Shoulder
+2220: Ravener Liver
+2221: Turtle Neck
+2222: Raptor Thigh Cutlet
+2223: Impaler Brisket
+2224: Rat Eye
+2225: Banshee Tail Meat
+2226: Bear Trap
+2227:
+2228:
+2229:
+2230: Possessed Blaster Turret
+2231: Long Range Turret
+2232:
+2233: Yxen Thread
+2234:
+2235: Viscid Tar
+2236: Station Attachment Superior Craft Speed
+2237: Station Attachment Major Critical Change
+2238: Station Attachment Superior Critical Chance
+2239: Station Attachment Greater Critical Chance
+2240: Station Attachment Minor Break Chance Reduction
+2241: Station Attachment Major Break Chance Reduction
+2242: Station Attachment Superior Break Chance Reduction
+2243: Station Attachment Greater Break Chance Destruction
+2244: Station Attachment Bonus Minor Enchantments
+2245: Station Attachment Bonus Major Enchantments
+2246: Station Attachment Bonus Superior Enchantments
+2247: Station Attachment Bonus Greater Enchentments
+2248: Station Attachment Minor Craft Speed
+2249: Station Attachment Major Craft Speed
+2250: Station Attachment Superior Craft Speed
+2251: Station Attachment Greater Craft Speed
+2252: Whisperwire
+2253: Divinity Seed
+2254: Aegistrand
+2255: Smoldertwine
+2256: Medium Leather Strap
+2257: Divinity Shard
+2258: Research Henge
+2259: Featherstark Thread
+2260: Eir’s Tear
+2261:
+2262: Ice Chips
+2263: Ashwood Bonfire
+2264: Wasp’s Tar
+2265: Spider’s Spore
+2266: T3 Disease Cure
+2267: T4 Disease Cure
+2268: T5 Disease Cure
+2269: Caustic Antidote
+2270: Orchids Antidote
+2271: Glowing Antidote
+2272: T4 Antidote
+2273: T5 Antidote
+2274: T1 Cleanse
+2275: T2 Cleanse
+2276: T3 Cleanse
+2277: T4 Cleanse
+2278: T5 Cleanse
+2279: Light Leather Wraps
+2280: Medium Leather Wraps
+2281: Heavy Leather Wraps
+2282: Bitter Balm
+2283: Swelter Salve
+2284: Honeyed Oil
+2285: Boreal Balm
+2286: Frozen Balm
+2287: Sizzle Salve
+2288: Scorching Salve
+2289:
+2290:
+2291: Rough Fiber Bandage
+2292: Treated Medical Bandage
+2293: Bloodsilk Bandage
+2294: Caustic Larva
+2295: Charboiled Boar Ribs
+2296: Seared Wolf Chop
+2297: Stringy Shoulder Roast
+2298: Juicy Yxen Steak
+2299: Smoked Stag Loin
+2300: Grilled Ursa Rib
+2301: Draptor Tenders
+2302: Allidon Fin Soup
+2303: Fried Glutt Leg
+2304: Bug Juice Stew
+2305: Baked Roc Breast
+2306: Gutwrecker Stew
+2307: Thick Charger Roast
+2308: Rat Poppers
+2309: Turtle Throat Sausage
+2310: Cat Cultet
+2311: Bloodliver Pie
+2312: Thick Festerwig Bacon
+2313: Roughshod Footsnare
+2314:
+2315: Reinforced Footsnare
+2316: Devious Footsnare
+2317: Vicious Footsnare
+2318:
+2319:
+2320:
+2321: True Fiber
+2322: Runeweavecloth
+2323: True Fiber Twine
+2324:
+2325: Smoke Grenade
+2326:
+2327:
+2328:
+2329:
+2330: Station Attachments Advanced Weapons
+2331: Amber Paste
+2332: Flux Metal Bar
+2333: Dross Metal Bar
+2334: Crystaline Dart
+2335: Razor Crystal Shard
+2336: Crystal Spike
+2337: Matted Fur
+2338:
+2339: Frabbit Shoulder
+2340: Wolf Chop
+2341: Meaty Bear Rib
+2342: Stag Loin
+2343:
+2344: Juicy Wasprey Meat
+2345: Tender Glutt Leg
+2346: Allidon Fin
+2347:
+2348: Standing Banner (Revenant)
+2349:
+2350: Hanging Banner (Revenant)
+2351: Spiked Iron Barricade
+2352: Spiked Iron Barricade
+2353: Bronze Wall Braces
+2354:
+2355: Iron Wall Brace
+2356: Steel Wall Brace
+2357: Divinite Wall Brace
+2358: Tame Crystal
+2359: Artifact Staff
+2360: Divinite Siege Bolt
+2361: Spark of Genius
+2362: Enchanted Crumblestone Sledge
+2363: Chitin
+2364: Cragstone Battering Sledge
+2365: Granite Battering Sledge
+2366: Aesirok Battering Sledge
+2367: Grunter Potbelly
+2368: Bloated Grunter Potbelly
+2369: Wolf Abdoment
+2370: Bloated Wolf Abdomen
+2371: Enchanted Rock Conjuring Stone
+2372: Enchanted Metal Conjuring Stone
+2373: Enchanted Wood Conjuring Stone
+2374: Runescribed Stone Conjuring Sonte
+2375: Runescribed Metal Conjuring Stone
+2376: Runescribed Wood Conjuring Stone
+2377: Crumblestone Sledge
+2378: Iron Reinforced Wooden Door
+2379: Skyfall Reinforced Wooden Door
+2380: Rough Spirit Siphon
+2381: Enchanted Spirit Siphon
+2382: Mystical Spirit Siphon
+2383: Runic Spirit Siphon
+2384: Rickety Bear Trap
+2385: Bear Trap
+2386: Large Bear Trap
+2387: Monstrous Bear Trap
+2388: Totem of Bjorn
+2389: Totem of Alg
+2390: Spirit Arrow
+2391: Totem of Varg
+2392: Totem of Roslag
+2393: Totem of Gam
+2394: Totem of Bjorn
+2395: Totem of Alg
+2396: Totem of Varg
+2397: Totem of Roslag
+2398: Totem of Gam
+2399: Scrap Metal Caltrops
+2400: Lesser Totem of Spirit Calming
+2401: Greater Totem of Spirit Calming
+2402: Barbed Iron Caltrops
+2403: Divinite Stridebreakers
+2404: Mystical Repeater Turret
+2405: Enchanted Repeater Turret
+2406: Arcane Repeater Turret
+2407: Runescribed Repeater Turret
+2408: Mystical Blaster Turret
+2409: Enchanted Blaster Turret
+2410: Arcane Blaster Turret
+2411: Runescribed Blaster Turret
+2412: Mystical Long Range Turret
+2413: Enchanted Long Range Turret
+2414: Arcane Long Range Turret
+2415: Runescribed Long Range Turret
+2416: Noxious Gas Mine
+2417: Toxic Cloud Mine
+2418: Death Fog Mine
+2419: Enchanted Spirit Arrow
+2420: Mystical Spirit Arrow
+2421: Runic Spirit Arrow
+2422: Lesser Totem of the Otherside
+2423: Taming Workshop
+2424: Greater Totem of the Otherside
+2425: Potion of Crossing
+2426: Weak Poison
+2427: Medium Poison
+2428: Severe Poison
+2429: Essence Bond Lure
+2430: Essence Bond Lure
+2431: Essence Bond Lure
+2432: Essence Bond Lure
+2433: Assassin’s Blight
+2434: Assassin’s Mire
+2435: Mystical Bow
+2436: Mystical Bow
+2437: Mystical Bow
+2438: Mystical Bow
+2439:
+2440: Divine Adhesive
+2441: Divine Heavy Leather
+2442: Divine Medium Leather
+2443: Divine Thin Leather
+2444: Divine Fiber Twine
+2445: War Leather Skullcap
+2446: War Leather Knuckleguards
+2447: War Leather Heartguard
+2448: War Leather Breeches
+2449: War Leather Shoulderguards
+2450:
+2451:
+
+
+
+2500: Makeshift Explosive Shell
+2550: Brightscale Trout
+2600:
