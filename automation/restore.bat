@@ -11,3 +11,4 @@ jar xf backup.zip
 
 xcopy Config %SAVED_DIR%\Config\ /E/H/Y
 xcopy SaveGames %SAVED_DIR%\SaveGames\ /E/H/Y
+copy /Y config.ini %SAVED_DIR%\..\..\config.ini

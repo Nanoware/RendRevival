@@ -11,5 +11,6 @@ copy SaveGames\REND_ETERNAL.sav %BACKUP_DIR%\SaveGames\REND_ETERNAL.sav
 copy SaveGames\REND_ETERNAL-PREV.sav %BACKUP_DIR%\SaveGames\REND_ETERNAL-PREV.sav
 copy SaveGames\Rend_Persistent.sav %BACKUP_DIR%\SaveGames\Rend_Persistent.sav
 copy SaveGames\Rend_Persistent-PREV.sav %BACKUP_DIR%\SaveGames\Rend_Persistent-PREV.sav
+copy ..\..\config.ini %BACKUP_DIR%\config.ini
 cd %BACKUP_DIR%
 jar -cfM backup.zip *
