@@ -1,0 +1,1 @@
+As of this check-in this save is from the vanilla world immediately preceding Saga 11. Objective would be to resume it but soft-reset via win condition.
